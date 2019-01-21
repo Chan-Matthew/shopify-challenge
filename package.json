@@ -1,0 +1,23 @@
+{
+  "name": "shopify",
+  "version": "0.0.0",
+  "description": "",
+  "author": "matthewchan <chann.matthew@hotmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongodb": "^2.2.33"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "matthewchan/shopify",
+    "timeout": 10000,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
