@@ -53,7 +53,6 @@
  
  
 <h2> /createProduct </h2>
-
 Parameters:
 
 {string} productID (unique identifier)
@@ -70,7 +69,6 @@ Creates a product in the store
 
 
 <h2> /createUser </h2>
-
 Parameters:
 
 {string} username (unique identifier)
@@ -81,7 +79,6 @@ Creates a user
 
 
 <h2> /addToCart </h2>
-
 Parameters:
 
 {string} username
@@ -96,7 +93,6 @@ Adds a product with a specific quantity into the user's cart
 
 
 <h2> /deleteFromCart </h2>
-
 Parameters:
 
 {string} username
@@ -111,7 +107,6 @@ Deletes a product with a specific quantity from the user's cart
 
 
 <h2> /purchaseCart </h2>
-
 Parameters:
 
 {string} username
@@ -122,7 +117,6 @@ Purchases all items in the cart with available stock
 
 
 <h2> /purchase </h2>
-
 Parameters:
 
 {string} productID
