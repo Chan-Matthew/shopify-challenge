@@ -29,11 +29,14 @@
  
  Displays all products with the option to show products with available stock
  
-<h2> createProduct </h2>
+<h2> /createProduct </h2>
 
 Parameter {string} productID (unique identifier)
+
 Parameter {string} name (name of the item)
+
 Parameter {string} price (price of the item)
+
 Parameter {string} quantity (number of items)
 
 Example: https://matthewchan.lib.id/shopify@dev/createProduct/?productID=item6&name=watermelon&price=10&quantity=20
