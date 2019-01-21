@@ -2,7 +2,9 @@
  Everything hosted through http://matthewchan.stdlib.com/shopify@dev/
  
  Built using stdlib and mongodb
+
  All actions are done through POST/GET requests
+
  Timeouts occur occasionally but all users and products are still updated fine
  
  products are defined as 
@@ -12,6 +14,7 @@
   price ,
   quantity
  }
+ 
  where productID's are unique between different products
  
  users are defined as 
@@ -23,7 +26,9 @@
     }
   }
  }
+ 
  where usernames are unique between different users
+ 
  each of the items in the cart is in the format [productID: quantity]
  
  # endpoints
