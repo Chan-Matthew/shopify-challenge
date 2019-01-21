@@ -7,6 +7,7 @@
 
  Timeouts occur occasionally but all users and products are still updated fine
  
+ 
  products are defined as 
  {
   productID: ,
@@ -16,6 +17,7 @@
  }
  
  where productID's are unique between different products
+ 
  
  users are defined as 
   {
@@ -31,6 +33,7 @@
  
  each of the items in the cart is in the format [productID: quantity]
  
+ 
  # endpoints
  <h2> / </h2>
  Parameters: 
@@ -41,11 +44,13 @@
  
  Displays all products with the option to show products with available stock
  
+ 
  <h2> /users </h2>
  
  http://matthewchan.stdlib.com/shopify@dev/users
  
  Displays all user information (for the sake of keeping track of what is in every cart)
+ 
  
 <h2> /createProduct </h2>
 
@@ -63,6 +68,7 @@ Example: https://matthewchan.lib.id/shopify@dev/createProduct/?productID=item6&n
 
 Creates a product in the store
 
+
 <h2> /createUser </h2>
 
 Parameters:
@@ -72,6 +78,7 @@ Parameters:
 Example: https://matthewchan.lib.id/shopify@dev/createUser/?username=shopify
 
 Creates a user
+
 
 <h2> /addToCart </h2>
 
@@ -87,6 +94,7 @@ Example: https://matthewchan.lib.id/shopify@dev/addToCart/?productID=item1&usern
 
 Adds a product with a specific quantity into the user's cart
 
+
 <h2> /deleteFromCart </h2>
 
 Parameters:
@@ -101,6 +109,7 @@ Example: https://matthewchan.lib.id/shopify@dev/deleteFromCart/?productID=item1&
 
 Deletes a product with a specific quantity from the user's cart
 
+
 <h2> /purchaseCart </h2>
 
 Parameters:
@@ -110,6 +119,7 @@ Parameters:
 Example: https://matthewchan.lib.id/shopify@dev/purchaseCart/?username=admin
 
 Purchases all items in the cart with available stock
+
 
 <h2> /purchase </h2>
 
