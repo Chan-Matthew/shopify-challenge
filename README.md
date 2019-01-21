@@ -10,13 +10,12 @@
  }
  where productID's are unique between different products
  
- users are defined as
+ users are defined as \n
   {
   username: ,
   cart: {
     total: ,
     items: {
-    
     }
   }
  }
