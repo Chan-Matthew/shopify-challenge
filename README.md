@@ -10,7 +10,7 @@
  }
  where productID's are unique between different products
  
- users are defined as \n
+ users are defined as 
   {
   username: ,
   cart: {
@@ -22,4 +22,6 @@
  where usernames are unique between different users
  
  # endpoints
- <h1> </h1>
+ <h1> / </h1>
+ Parameter {boolean} onlyAvailable
+ 
